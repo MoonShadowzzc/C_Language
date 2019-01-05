@@ -43,6 +43,10 @@
 　　　　方法一：直接输入 `$ cd C_Language`
 
 　　　　方法一：点击C_Language文件下进去之后-》鼠标右击选择Git Bash Here->输入`$ git int`
+
+    c、通过clone方法 将远程仓库拉回本地
+
+        `$ git clone https://github.com/MoonShadowzzc/C_Language `
     
 #### 3、向仓库中添加文件　　
 
@@ -61,3 +65,9 @@
 　　方法一：在编辑器中直接把要删除的文件删除掉
 
 　　方法二：使用git删除：$ git rm '文件名'，然后提交操作
+
+#### 6、远程库--将远程仓库（github上对应的项目）复制到本地
+
+    1、代码：`git clone 仓库地址`
+
+    2、将本地仓库同步到git远程仓库中：`git push`
