@@ -1,0 +1,5 @@
+## ignore this type of files ##
+*.exe
+*.win
+*.layout
+*.o

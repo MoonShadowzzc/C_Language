@@ -77,3 +77,18 @@
     4、提交仓库：`git commit`
     
     5、将本地仓库同步到git远程仓库中：`git push`
+
+#### 7、忽略更新某些类型的文件
+    1、首先在仓库中创建隐藏文件“.gitignore”
+        a. 用git bash：
+            cd 到 相应目录；touch .gitignore
+        b. 用dos 命令 ren
+            在相应目录先建一个t.txt文件，然后切换到cmd命令行模式里，ren t.txt .gitignore
+    
+    2、编辑.gitignore
+        ##ignore this file##
+        /target/ 
+        .classpath
+        .project
+        .settings      
+
