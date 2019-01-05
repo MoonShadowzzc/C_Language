@@ -70,4 +70,10 @@
 
     1、代码：`git clone 仓库地址`
 
-    2、将本地仓库同步到git远程仓库中：`git push`
+    2、查看状态：`git status`
+
+    3、添加缓冲区：`git add`
+    
+    4、提交仓库：`git commit`
+    
+    5、将本地仓库同步到git远程仓库中：`git push`
