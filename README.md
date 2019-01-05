@@ -86,7 +86,7 @@
 2.编辑.gitignore
 
 	##ignore this file##
-      	/target/
-      	.classpath
-      	.project
+	/target/
+	.classpath
+	.project
 	.settings
