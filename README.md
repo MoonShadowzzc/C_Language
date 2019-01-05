@@ -22,13 +22,11 @@
 
 　　b、设置用户邮箱：`git  config -- global  user.email`  '注册时候的邮箱';
 
-注意：该配置会在github主页上显示谁提交了该文件
+*注意：该配置会在github主页上显示谁提交了该文件*
 
- 　　c、配置ok之后，我们用如下命令来看看是否配置成功
+ 　　c、配置ok之后，我们用如下命令来看看是否配置成功 `git config --list`
 
-　　`git config --list`
-
-注意：git  config --global 参数，有了这个参数表示你这台机器上所有的git仓库都会使用这个配置，当然你也可以对某个仓库指定不同的用户名和邮箱
+*注意：git  config --global 参数，有了这个参数表示你这台机器上所有的git仓库都会使用这个配置，当然你也可以对某个仓库指定不同的用户名和邮箱*
 
 #### 2、初始化一个新的git仓库
 
@@ -37,23 +35,23 @@
 　　　　方法一：可以鼠标右击-》点击新建文件夹C_Language
 
 　　　　方法二：使用git新建：`$  mkdir C_Language`
-    
-    b、在文件内初始化git（创建git仓库）
+
+　　b、在文件内初始化git（创建git仓库）
 
 　　　　方法一：直接输入 `$ cd C_Language`
 
 　　　　方法一：点击C_Language文件下进去之后-》鼠标右击选择Git Bash Here->输入`$ git int`
 
-    c、通过clone方法 将远程仓库拉回本地
+　　c、通过clone方法 将远程仓库拉回本地
 
-        `$ git clone https://github.com/MoonShadowzzc/C_Language `
-    
-#### 3、向仓库中添加文件　　
+  　　 `$ git clone https://github.com/MoonShadowzzc/C_Language `
+
+#### 3、向仓库中添加文件
 
 　　方法一：用打开编辑器新建index.html文件
 
 　　方法二：使用git命令。$  touch '文件名'，然后把文件通过$ git add '文件名'添加到暂存区，最后提交操作
-  
+
 #### 4、修改仓库文件
 
 　　方法一：用编辑器打开index.html进行修改
@@ -68,27 +66,27 @@
 
 #### 6、远程库--将远程仓库（github上对应的项目）复制到本地
 
-    1、代码：`git clone 仓库地址`
+　　1、代码：`git clone 仓库地址`
 
-    2、查看状态：`git status`
+　　2、查看状态：`git status`
 
-    3、添加缓冲区：`git add`
-    
-    4、提交仓库：`git commit`
-    
-    5、将本地仓库同步到git远程仓库中：`git push`
+　　3、添加缓冲区：`git add`
+
+　　4、提交仓库：`git commit`
+
+　　5、将本地仓库同步到git远程仓库中：`git push`
 
 #### 7、忽略更新某些类型的文件
-    1、首先在仓库中创建隐藏文件“.gitignore”
-        a. 用git bash：
-            cd 到 相应目录；touch .gitignore
-        b. 用dos 命令 ren
-            在相应目录先建一个t.txt文件，然后切换到cmd命令行模式里，ren t.txt .gitignore
-    
-    2、编辑.gitignore
+
+> 1、首先在仓库中创建隐藏文件“.gitignore”
+　　a. 用git bash：
+　　　　cd 到 相应目录；`touch .gitignore`
+　　b. 用dos 命令 ren
+　　　　在相应目录先建一个t.txt文件，然后切换到cmd命令行模式里，`ren t.txt .gitignore`
+
+> 2、编辑.gitignore
         ##ignore this file##
-        /target/ 
+        /target/
         .classpath
         .project
-        .settings      
-
+        .settings
