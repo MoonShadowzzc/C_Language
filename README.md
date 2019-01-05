@@ -76,7 +76,7 @@
 
 　　5、将本地仓库同步到git远程仓库中：`git push`
 
-    6、将远程库的文档拉回本地: `git pull origin`
+　　6、将远程库的文档拉回本地: `git pull origin`
 
 #### 7、忽略更新某些类型的文件
 1.首先在仓库中创建隐藏文件“.gitignore”
