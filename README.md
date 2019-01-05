@@ -89,4 +89,4 @@
       	/target/
       	.classpath
       	.project
-        .settings
+	.settings
