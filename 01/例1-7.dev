@@ -1,6 +1,6 @@
 [Project]
-FileName=절1-5.dev
-Name=절1-5
+FileName=절1-7.dev
+Name=절1-7
 Type=1
 Ver=2
 ObjFiles=
@@ -51,7 +51,7 @@ AutoIncBuildNr=0
 SyncProduct=1
 
 [Unit1]
-FileName=l1-5.c
+FileName=l1-7.c
 CompileCpp=0
 Folder=
 Compile=1
