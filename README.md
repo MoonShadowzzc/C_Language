@@ -92,3 +92,12 @@
 	.classpath
 	.project
 	.settings
+
+#### 8、重命名文件或文件夹
+
+　　1、`git mv -f oldfolder newfolder`
+
+　　2、`git add -u newfolder ` (-u选项会更新已经追踪的文件和文件夹)
+
+　　3、`git commit -m "changed the foldername whaddup"`
+
