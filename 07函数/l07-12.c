@@ -1,6 +1,7 @@
 /* 数组名作为实参的程序 */
 #include <stdio.h>
 void myout(int *p, int n);
+
 void main()
 {
 	int a[5] = {1,2,3,4,5};
