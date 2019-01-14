@@ -13,5 +13,5 @@ void main()
 	int x = 3, y = 5;
 	printf("before: x=%d, y=%d\n", x, y);
 	mySwap(x, y);
-	printf("after : x=%d, y=%d", x, y);
+	printf("after d: x=%d, y=%d", x, y);
 }
