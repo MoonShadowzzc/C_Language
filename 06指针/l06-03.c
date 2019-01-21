@@ -11,4 +11,5 @@ void main()
 	if(*max < *q)  max=q;
 	if(*max < *w)  max=w; 
 	printf("a=%d, b=%d, c=%d, max=%d",a,b,c,*max);
+	
 } 
