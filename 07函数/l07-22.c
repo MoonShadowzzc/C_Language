@@ -7,10 +7,10 @@ long int myfac(int n);
 void main() 
 {
 	int n=0; long x=0;
-	long (*p)(int n);
+	long (*p)(int n);	// 变量p，是指向函数的指针 
 	scanf("%d", &n);
-	p = mysum;
-	x = (*p)(n);
+	p = mysum;			// 函数的函数名为函数的首地址常量 
+	x = (*p)(n);		// 指针函数的引用 
 	printf("sum=%ld\n", x);
 	p = myfac;
 	x = (*p)(n);
